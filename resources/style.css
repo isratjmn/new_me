@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* HEADER BANNER SECTION STARTS */
@@ -133,6 +135,10 @@
     display: flex;
     align-items: center;
     margin: auto;
+    border-radius: 8px;
+}
+.cta-details {
+    padding-left: 64px;
 }
 .cta-details .title {
     width: 80%;
@@ -143,3 +149,74 @@
 }
 
 /* CTA SECTION ENDS */
+
+.footer-container {
+    margin-top: 130px;
+    padding-top: 130px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    background: #151414;
+    color: #F8F8F8;
+}
+.footer-information {
+    display: flex;
+    padding: 0 230px;
+    gap: 300px;
+    
+}
+.info-details {
+    width: 40%;
+}
+.info-details h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.info-details p {
+    padding-bottom: 24px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.personal-info li {
+    font-size: 20px;
+    
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.social-icons img {
+    margin-right: 18px;
+    width: 40px;
+    height: 40px;
+}
+form h3 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+input[type="email"] {
+    margin-top: 32px;
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    border: 2px solid #FFFFFF;
+    background: transparent;
+    padding-left: 20px;
+}
+.btn-secondary {
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    padding: 16px 26px;;
+    border: none;
+    line-height: 32px;
+}
+
