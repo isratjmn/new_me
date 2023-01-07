@@ -92,6 +92,7 @@
 .plan-container .title {
     text-align: center;
 }
+
 /* PLAN SECTION STARTS */
 .plan-container {
     width: 75%;
@@ -122,6 +123,7 @@
     color: #737272;
 }
 /* PLAN SECTION ENDS */
+
 /* CTA SECTION STARTS  */
 .cta-container {
     background-image: url('../images/watch.png'),linear-gradient(70deg, #033964 0%, rgba(0, 95, 172, 0.458) 100%);
@@ -146,7 +148,6 @@
     line-height: 52px;
     color: #FFFFFF;
 }
-
 /* CTA SECTION ENDS */
 
 /* BLOG SECTION STARTS */
@@ -176,7 +177,6 @@
 
 .blog-card .card-content {
     margin-top: 20px;
-    
 }
 .blog-card :is(.card-meta-list, .card-meta-item) {
     display: flex;
